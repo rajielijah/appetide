@@ -1,5 +1,6 @@
 import 'package:appetide/color.dart';
 import 'package:appetide/home.dart';
+import 'package:appetide/nav.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -14,6 +15,7 @@ class Login extends StatelessWidget {
       child: Scaffold(
         body: SingleChildScrollView(
           child: Container(
+            height: height,
             color: kPrimary,
             child: Padding(
               padding: const EdgeInsets.all(18.0),
@@ -53,7 +55,7 @@ class Login extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(18.0),
                     child: Container(
-                      height: height / 7,
+                      height: height / 10,
                       width: width,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(14),
@@ -89,7 +91,7 @@ class Login extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(18.0),
                     child: Container(
-                      height: height / 7,
+                      height: height / 10,
                       width: width,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(14),
@@ -118,7 +120,7 @@ class Login extends StatelessWidget {
                               style: TextStyle(fontFamily: 'Kodchasan'),
                             ),
                             SizedBox(
-                              width: width / 4,
+                              width: width / 2.2,
                             ),
                             Icon(Icons.visibility)
                           ],
@@ -141,7 +143,7 @@ class Login extends StatelessWidget {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (BuildContext context) => HomePage()));
+                                  builder: (BuildContext context) => MyStatefulWidget()));
                         },
                         style: ElevatedButton.styleFrom(
                             shape: RoundedRectangleBorder(

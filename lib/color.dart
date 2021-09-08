@@ -9,3 +9,11 @@ const MaterialColor kPrimary = const MaterialColor(
     30: const Color(0xFF635F50)
   }
   );
+const MaterialColor kPrimarys = const MaterialColor(
+  0xFFD4AF37,
+    const <int, Color> {
+    10: const Color(0xFF26200B),
+    20: const Color(0xFFD4AF37),
+    30: const Color(0xFF635F50)
+  }
+  );
