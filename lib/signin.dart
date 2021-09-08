@@ -15,7 +15,7 @@ class Login extends StatelessWidget {
       child: Scaffold(
         body: SingleChildScrollView(
           child: Container(
-            height: height,
+            // height: height,
             color: kPrimary,
             child: Padding(
               padding: const EdgeInsets.all(18.0),
@@ -55,7 +55,7 @@ class Login extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(18.0),
                     child: Container(
-                      height: height / 10,
+                      height: height / 7,
                       width: width,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(14),
@@ -91,7 +91,7 @@ class Login extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(18.0),
                     child: Container(
-                      height: height / 10,
+                      height: height / 7,
                       width: width,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(14),
@@ -120,7 +120,7 @@ class Login extends StatelessWidget {
                               style: TextStyle(fontFamily: 'Kodchasan'),
                             ),
                             SizedBox(
-                              width: width / 2.2,
+                              width: width / 4,
                             ),
                             Icon(Icons.visibility)
                           ],
